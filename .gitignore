@@ -1,0 +1,12 @@
+.streamlit/secrets.toml
+.streamlit/secrets.toml.example
+.env
+src/__pycache__
+src/database/__pycache__
+src/rag/__pycache__
+src/configs/__pycache__
+src/models/__pycache__
+src/utils/__pycache__
+src/prompts/__pycache__
+src/database/__pycache__
+src/rag/__pycache__

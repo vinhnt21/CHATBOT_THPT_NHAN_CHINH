@@ -1,0 +1,78 @@
+[server]
+# Maximum file upload size (in MB)
+maxUploadSize = 10
+
+# Enable CORS for development
+enableCORS = false
+
+# Enable CSRF protection
+enableXsrfProtection = true
+
+# Port for local development
+port = 8501
+
+# Enable websocket compression
+enableWebsocketCompression = true
+
+[browser]
+# Disable usage stats collection
+gatherUsageStats = false
+
+# Show error details for debugging
+showErrorDetails = true
+
+# Server address
+serverAddress = "localhost"
+
+[theme]
+# Primary color for UI elements
+primaryColor = "#1f77b4"
+
+# Background color
+backgroundColor = "#ffffff"
+
+# Secondary background color
+secondaryBackgroundColor = "#f0f2f6"
+
+# Text color
+textColor = "#262730"
+
+# Font family
+font = "sans serif"
+
+[runner]
+# Enable magic commands
+magicEnabled = true
+
+# Install tracer for better debugging
+installTracer = false
+
+# Fix matplotlib compatibility
+fixMatplotlib = true
+
+# Fast rerun on file changes
+fastReruns = true
+
+[logger]
+# Logging level
+level = "info"
+
+# Enable colored logs
+enableLogging = true
+
+[global]
+# Development mode settings
+developmentMode = false
+
+# Share button (disable for private apps)
+showWarningOnDirectExecution = true
+
+# Suppress deprecation warnings
+suppressDeprecationWarnings = true
+
+[client]
+# Show sidebar by default
+showSidebarNavigation = true
+
+# Toolbar mode
+toolbarMode = "auto" 
